@@ -1,0 +1,14 @@
+
+public class ExemploMetodos {
+
+	// Somar
+	public static void somar(double valor_1, double valor_2) {
+		 valor_2 + valor_2;
+	}
+	
+
+	public static void main(String[] args) {
+
+	}
+
+}

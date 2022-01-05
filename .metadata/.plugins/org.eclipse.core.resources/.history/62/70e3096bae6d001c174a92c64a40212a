@@ -1,0 +1,15 @@
+
+public class ExemploMetodos {
+
+	// Somar
+	public static double soma(double valor_1, double valor_2) {
+		return (valor_1 + valor_2);
+
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println(soma(5, 10));
+	}
+
+}

@@ -1,0 +1,29 @@
+/*
+ * Estruturas de repetição são um tipo de estrutura de controel de fluxo que faz
+ * com que um trecho de código seja executado várias vezes
+ * 
+ * while/enqunato: o teste de validade da condição é executado antes do bloco de instruções
+ * a ser repetido:
+ * while(expressão booleana){
+ *  instruções
+ * }
+ * do...while/fala enquanto: o teste de validade é executado depois do bloco de instruções.
+ * do{
+ *  instruções
+ * }while(expressão boolena)
+ * 
+ * */
+public class UsaWhile {
+	public static void main(String args[]) {
+
+		int num = 0;
+		int loop;
+		loop = 5;
+
+		while (loop > num) {
+			System.out.println("Valor da variável num " + num + "\n");
+			num++;
+		}
+	}
+
+}
